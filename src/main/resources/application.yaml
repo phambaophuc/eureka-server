@@ -6,8 +6,6 @@ spring:
     name: eureka-server
 
 eureka:
-  instance:
-      hostname: eureka-server-l9in.onrender.com
   client:
     register-with-eureka: false
     fetch-registry: false
